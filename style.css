@@ -228,11 +228,51 @@ footer {
 }
 
 @media screen and (max-width:425px) {
+  header {
+    width: 100%;
+  }
+
+  .nav-list {
+    width: 100%;
+  }
+
+  .nav-list-item {
+    width: 100%;
+    margin: 0 0 10px 0;
+  }
+
+  .social {
+    display: none;
+  }
+
+  .main-visual-content {
+    width: 100%;
+  }
+
   main {
     width: 100%;
     display: block;
   }
+
+  .blog {
+    width: 100%;
+    margin: 0;
+  }
+  
+  .blog-box {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .blog-image{
+    width: 49%;
+  }
+
+  .category {
+    display: none;
+  }
+
   .pagination {
-    width: ;
+    padding-bottom: 50px;
   }
 }
